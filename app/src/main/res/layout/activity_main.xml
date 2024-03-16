@@ -73,7 +73,7 @@
         app:backgroundTint="@color/blue"
         app:borderWidth="0dp"
         app:fabCustomSize="101dp"
-        android:visibility="visible"
+        android:visibility="gone"
         android:contentDescription="@string/other_button_description"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
