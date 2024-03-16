@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
     private val redButton get() = binding.redButton
     private val blueButton get() = binding.blueButton
     private val tinyYellowButton get() = binding.tinyYellowButton
-    private val superSecretView get() = binding.SUPERSECRETPOWERLEVELVIEW
     private val sharedPref: SharedPreferences by lazy {
         getPreferences(MODE_PRIVATE)
     }
@@ -41,7 +40,6 @@ class MainActivity : AppCompatActivity() {
         blueButton.setOnClickListener { blueButtonClicked() }
         tinyYellowButton.setOnClickListener { tinyButtonClicked() }
         tinyYellowButton.setOnLongClickListener { tinyButtonLongClicked() }
-        superSecretView.setOnClickListener { unclickableButton() }
     }
 
     /**

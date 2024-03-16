@@ -76,12 +76,4 @@
         android:visibility="visible"
         android:contentDescription="@string/other_button_description"/>
 
-    <!-- why is this here... it doesn't seem to be doing anything -->
-    <View
-        android:id="@+id/SUPER_SECRET_POWER_LEVEL_VIEW"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:elevation="9001dp"
-        android:visibility="visible"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
