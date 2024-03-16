@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
 
-    private val redButton get() = binding.redButton as Button
+    private val redButton get() = binding.redButton
     private val blueButton get() = binding.blueButton
     private val tinyYellowButton get() = binding.tinyYellowButton
     private val superSecretView get() = binding.SUPERSECRETPOWERLEVELVIEW
